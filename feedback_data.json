@@ -1,0 +1,55 @@
+[
+  {
+    "feedback_id": "4394e8f3-4646-4557-8e05-5e61ebb44506",
+    "timestamp": "2025-08-21T18:07:18.354731Z",
+    "user_id": "12345",
+    "feedback_type": "bug_report",
+    "description": "Bot gave wrong answer to refund request.",
+    "metadata": {
+      "conversation_id": "conv_abc123",
+      "rating": 2
+    }
+  },
+  {
+    "feedback_id": "22537448-d0e9-4f70-8773-12746b606149",
+    "timestamp": "2025-08-21T18:07:18.356459Z",
+    "user_id": "67890",
+    "feedback_type": "feature_request",
+    "description": "Please add support for multiple languages.",
+    "metadata": {
+      "rating": 5
+    }
+  },
+  {
+    "feedback_id": "d52c3d55-020e-4d16-ab39-13659a4d7690",
+    "timestamp": "2025-08-21T18:11:49.099005Z",
+    "user_id": "12345",
+    "feedback_type": "bug_report",
+    "description": "Bot gave wrong answer to refund request.",
+    "metadata": {
+      "conversation_id": "conv_abc123",
+      "rating": 2
+    }
+  },
+  {
+    "feedback_id": "4c25e836-4408-4776-bc0d-0bdaeef8271a",
+    "timestamp": "2025-08-21T18:11:49.122717Z",
+    "user_id": "67890",
+    "feedback_type": "feature_request",
+    "description": "Please add support for multiple languages.",
+    "metadata": {
+      "rating": 5
+    }
+  },
+  {
+    "feedback_id": "126c0053-0d7e-4b04-8e07-ea8044af5a71",
+    "timestamp": "2025-08-21T18:12:50.731050Z",
+    "user_id": "test_user_001",
+    "feedback_type": "bug_report",
+    "description": "The chatbot provided incorrect information about product pricing",
+    "metadata": {
+      "conversation_id": "conv_12345",
+      "rating": 3
+    }
+  }
+]

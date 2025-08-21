@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "user123",
+    "query": "What's my email?",
+    "response": "Your email is john.doe@example.com",
+    "error": null
+  },
+  {
+    "user_id": "user456",
+    "query": "How do I reset password?",
+    "response": "Visit settings and click reset",
+    "error": null
+  },
+  {
+    "user_id": "user789",
+    "query": "What's my phone?",
+    "response": "Your number is 555-123-4567",
+    "error": null
+  }
+]
