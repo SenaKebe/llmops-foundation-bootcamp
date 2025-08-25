@@ -83,5 +83,13 @@
       "conversation_id": "2",
       "rating": 1
     }
+  },
+  {
+    "feedback_id": "62c8532e-6211-40ff-94ea-49781b5b4092",
+    "timestamp": "2025-08-25T07:12:01.297820Z",
+    "user_id": "1",
+    "feedback_type": "bug_report",
+    "description": "i don't like any task",
+    "metadata": {}
   }
 ]
