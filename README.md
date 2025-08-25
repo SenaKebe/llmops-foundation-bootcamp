@@ -11,8 +11,6 @@ This project contains two Python modules:
    - Monitors chatbot responses for latency, errors, and PII (emails, phone numbers, credit cards).
    - Logs results to both the terminal and `chatbot_monitor.log`.
 
----
-
 ## 🔧 Setup
 
 ### 1. Clone repository and enter directory
@@ -21,3 +19,5 @@ This project contains two Python modules:
 git clone https://github.com/SenaKebe/llmops-foundation-bootcamp
 cd llmops-foundation-bootcamp
 ```
+
+![alt text](image.png)
