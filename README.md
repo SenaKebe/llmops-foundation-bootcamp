@@ -1,40 +1,23 @@
-# LLMOps Foundations Bootcamp Project
+# Chatbot Feedback & Monitoring
 
-## 📋 Overview
+This project contains two Python modules:
 
-This project implements a comprehensive LLMOps foundation for a customer-facing chatbot, addressing monitoring, feedback collection, version control, and disaster recovery.
+1. **feedback_collector.py**
 
-## 🏗️ System Architecture
+   - Collects, validates, and stores user feedback in a JSON file.
+   - Can be used via command-line interface (CLI) or programmatically.
 
-```mermaid
-graph TB
-    subgraph "User Interaction"
-        A[User Query] --> B[Chatbot API]
-    end
+2. **monitoring.py**
+   - Monitors chatbot responses for latency, errors, and PII (emails, phone numbers, credit cards).
+   - Logs results to both the terminal and `chatbot_monitor.log`.
 
-    subgraph "LLMOps Core"
-        B --> C[Monitoring Service]
-        C --> D[PII Detection]
-        C --> E[Latency Tracking]
-        C --> F[Error Logging]
-        D --> G[Alert System]
-        E --> G
-        F --> G
-    end
+---
 
-    subgraph "Feedback Loop"
-        H[Feedback Collection] --> I[Storage]
-        I --> J[Analysis]
-        J --> K[Model Improvement]
-    end
+## 🔧 Setup
 
-    subgraph "Version Control"
-        L[GitHub] --> M[Main Branch]
-        L --> N[Stable Branch]
-        M --> O[Automated Testing]
-        N --> P[Production Deployment]
-    end
+### 1. Clone repository and enter directory
 
-    G --> H
-    K --> B
+```bash
+git clone https://github.com/SenaKebe/llmops-foundation-bootcamp
+cd llmops-foundation-bootcamp
 ```

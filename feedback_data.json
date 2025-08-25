@@ -51,5 +51,37 @@
       "conversation_id": "conv_12345",
       "rating": 3
     }
+  },
+  {
+    "feedback_id": "adfe460b-de07-4447-a2ba-2fe41256b1d2",
+    "timestamp": "2025-08-25T05:57:52.094246Z",
+    "user_id": "12345",
+    "feedback_type": "bug_report",
+    "description": "Bot gave wrong answer to refund request.",
+    "metadata": {
+      "conversation_id": "conv_abc123",
+      "rating": 2
+    }
+  },
+  {
+    "feedback_id": "a941e8ec-4f2e-4fc6-9d67-9bcf1991be9c",
+    "timestamp": "2025-08-25T05:57:52.095240Z",
+    "user_id": "67890",
+    "feedback_type": "feature_request",
+    "description": "Please add support for multiple languages.",
+    "metadata": {
+      "rating": 5
+    }
+  },
+  {
+    "feedback_id": "174ee36a-51c5-4785-a61a-9a0da80d41a8",
+    "timestamp": "2025-08-25T05:58:27.585650Z",
+    "user_id": "2",
+    "feedback_type": "general_feedback",
+    "description": "i don't like any of your jobs",
+    "metadata": {
+      "conversation_id": "2",
+      "rating": 1
+    }
   }
 ]
